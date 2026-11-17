@@ -45,7 +45,7 @@ and make sure tests run reliably in CI on every change.
 | Project | What it shows |
 |---|---|
 | [**api-test-automation-framework**](https://github.com/raykurt/api-test-automation-framework) <br> ![API Tests](https://github.com/raykurt/api-test-automation-framework/actions/workflows/api-tests.yml/badge.svg) | Java 17 · Cucumber · REST Assured · JUnit 5. Layered configuration, POJO models, dynamic test data, JSON schema checks, Awaitility instead of sleeps, cached auth token, parallel runs, positive, negative and security scenarios. |
-| [**cypress-cucumber-ui-tests**](https://github.com/raykurt/cypress-cucumber-ui-tests) | Cypress · Cucumber · TypeScript. Page objects built from reusable components, `data-test` selectors, `cy.session` login, environment-specific configs, Scenario Outlines, CI on every push. |
+| [**cypress-cucumber-ui-tests**](https://github.com/raykurt/cypress-cucumber-ui-tests) <br> ![UI Tests](https://github.com/raykurt/cypress-cucumber-ui-tests/actions/workflows/ui-tests.yml/badge.svg) | Cypress · Cucumber · TypeScript. Page objects built from reusable components, `data-test` selectors, `cy.session` login, environment-specific configs, Scenario Outlines, CI on every push. |
 
 Both projects keep manual and automated scenarios side by side: automated ones are tagged `@run`,
 manual ones `@manual`, and every scenario carries a test case ID.
